@@ -1,0 +1,170 @@
+
+body{
+
+    height: 99vh;
+    width: 99vw;    
+
+
+}
+
+
+
+#container {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  height: 100vh;
+  width: 100%;
+    background-color: rgb(29, 51, 44);
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+.titulo{
+
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+
+
+
+}
+
+#cards{
+
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+
+}
+
+
+  .tarjeta{
+
+    width: 12%;
+    height: auto;
+    display: flex;
+    border: solid;
+    flex-direction: column;
+    overflow: hidden;
+    padding: auto;
+    text-align: center;
+    background: #242625;
+    border-radius: 10px;
+    transition: transform .7s; 
+
+  }
+
+  .tarjeta:hover{
+    box-shadow: 10px 5px 5px black;
+    transform: scale(1.1); 
+    
+    height: auto;
+    display: flex;
+    border: solid;
+    flex-direction: column;
+    overflow: hidden;
+    padding: auto;
+    text-align: center;
+    background: #242625;
+    border-radius: 10px;
+
+  }
+  
+
+  .tarjeta_imagen{
+
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    }
+    
+    
+    .tarjeta_cont{
+    
+      height: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      
+      
+    
+    }
+
+.image{
+
+    height: 80%;
+    width: 90%;
+    border-radius: 1rem;
+    box-shadow: 25px 25px 50px #1b1c1b;
+    
+
+  }
+
+  p{
+
+    color: aliceblue;
+    font-size: 1.1rem;
+  }
+
+
+  .enviar{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+input{
+
+    height: 10%;
+    width: 20%;
+    margin-bottom: 1rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 10px 5px 5px black;
+    margin: 1rem;
+   border-radius: 0.5rem;
+}
+
+button{
+
+    height: 10%;
+    width: 8%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    background-color:burlywood;
+    box-shadow: 10px 5px 5px black;
+}
+
+button:hover{
+
+    background-color: aliceblue;
+}
+
+h1{
+
+    font-style: italic;
+
+}
+
+h2{
+
+  color: antiquewhite;
+  font-style: italic;
+  font-size: 2rem;
+
+}
