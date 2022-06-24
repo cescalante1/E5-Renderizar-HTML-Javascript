@@ -19,6 +19,7 @@ body{
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
+   
     
     
   }
@@ -41,7 +42,8 @@ body{
   width: 100%;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 5rem;
+  flex-wrap: wrap;
+  flex-grow: 1;
 
 }
 
@@ -53,25 +55,23 @@ body{
     display: flex;
     border: solid;
     flex-direction: column;
-    overflow: hidden;
     padding: auto;
     text-align: center;
     background: #242625;
     border-radius: 10px;
     box-shadow: 10px 5px 5px black;
-    transition: transform .7s; 
+    transition: transform .10s; 
+    margin-bottom: 3rem;
 
   }
 
   .tarjeta:hover{
     box-shadow: 10px 5px 5px black;
-    transform: scale(1.1); 
-    
+    transform: scale(1.2); 
     height: auto;
     display: flex;
     border: solid;
     flex-direction: column;
-    overflow: hidden;
     padding: auto;
     text-align: center;
     background: #242625;
@@ -82,7 +82,7 @@ body{
 
   .tarjeta_imagen{
 
-    height: 50%;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -94,13 +94,14 @@ body{
     
     .tarjeta_cont{
     
-      height: 50%;
+      height: 60%;
       width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       flex-wrap: wrap;
+      margin-bottom: 1rem;
       
       
     
@@ -108,7 +109,7 @@ body{
 
 .image{
 
-    height: 80%;
+    height: 90%;
     width: 90%;
     border-radius: 1rem;
     box-shadow: 25px 25px 50px #1b1c1b;

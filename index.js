@@ -116,6 +116,17 @@ const renderizarDom = () =>{
     price.appendChild(renderprice);
     div_cont.appendChild(price);
 
+
+
+    const ing_etiqueta = document.createElement('span');   
+    const renderetiqueta = document.createTextNode("Ingredientes: ");
+    ing_etiqueta.appendChild(renderetiqueta);
+    div_cont.appendChild(ing_etiqueta);
+    
+    const ing_etiqueta_espacio = document.createElement('br');   
+    div_cont.appendChild(ing_etiqueta_espacio);
+
+
     pizza.ingredientes.map((ingrediente)=>{
     
 
@@ -193,6 +204,16 @@ const price = document.createElement('p');
 const renderprice = document.createTextNode(`Precio: $ ${pizza.precio}`);
 price.appendChild(renderprice);
 div_cont.appendChild(price);
+
+
+
+const ing_etiqueta = document.createElement('span');   
+const renderetiqueta = document.createTextNode("Ingredientes: ");
+ing_etiqueta.appendChild(renderetiqueta);
+div_cont.appendChild(ing_etiqueta);
+
+const ing_etiqueta_espacio = document.createElement('br');   
+div_cont.appendChild(ing_etiqueta_espacio);
 
 
 
