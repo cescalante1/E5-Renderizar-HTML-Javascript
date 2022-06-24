@@ -41,7 +41,7 @@ body{
   width: 100%;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 
 }
 
@@ -58,6 +58,7 @@ body{
     text-align: center;
     background: #242625;
     border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
     transition: transform .7s; 
 
   }
@@ -115,7 +116,7 @@ body{
 
   }
 
-  p{
+  p,span{
 
     color: aliceblue;
     font-size: 1.1rem;

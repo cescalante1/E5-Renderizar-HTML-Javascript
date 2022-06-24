@@ -116,11 +116,16 @@ const renderizarDom = () =>{
     price.appendChild(renderprice);
     div_cont.appendChild(price);
 
+    pizza.ingredientes.map((ingrediente)=>{
+    
 
-    const ingredientes = document.createElement('p');   
-    const renderingredientes = document.createTextNode(`Ingredientes: ${pizza.ingredientes}`);
-    ingredientes.appendChild(renderingredientes);
-    div_cont.appendChild(ingredientes);
+        const ingredientes = document.createElement('span');   
+        const renderingredientes = document.createTextNode(ingrediente);
+        ingredientes.appendChild(renderingredientes);
+        div_cont.appendChild(ingredientes);
+        
+        
+        });
 
     card.appendChild(div_imagen);
     card.appendChild(div_cont);
@@ -190,10 +195,17 @@ price.appendChild(renderprice);
 div_cont.appendChild(price);
 
 
-const ingredientes = document.createElement('p');   
-const renderingredientes = document.createTextNode(`Ingredientes: ${pizza.ingredientes}`);
+
+pizza.ingredientes.map((ingrediente)=>{
+    
+
+const ingredientes = document.createElement('span');   
+const renderingredientes = document.createTextNode(ingrediente);
 ingredientes.appendChild(renderingredientes);
 div_cont.appendChild(ingredientes);
+
+
+})
 
 card.appendChild(div_imagen);
 card.appendChild(div_cont);
