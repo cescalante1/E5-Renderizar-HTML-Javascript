@@ -13,7 +13,6 @@ body{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   height: 100vh;
   width: 100%;
-    /* background-color: rgb(29, 51, 44); */
     display: flex;
     flex-direction: column;
     background-image: url("https://vod-hogarmania.atresmedia.com/hogarmania/images/images01/2014/01/21/5c0016fa16334d0001919168/1239x697.jpg");
